@@ -7,7 +7,13 @@ This project was done for completion of the "Statistical Learning" class at New 
 
 ### Methods Used
 
-### Languages and Packages
+- Data Visualization
+- Multiple Linear Regression
+- Bootstrap Sampling
+
+### Language
+
+- R
 
 ## Project Description
 
@@ -15,5 +21,3 @@ This project was done for completion of the "Statistical Learning" class at New 
 https://www.kaggle.com/russellyates88/suicide-rates-overview-1985-to-2016
 
 ## Results
-
-
