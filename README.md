@@ -17,7 +17,7 @@ This project was done for completion of the "Statistical Learning" class at New 
 
 ## Project Description
 
-### Dataset Link
+### Original Dataset Link
 https://www.kaggle.com/russellyates88/suicide-rates-overview-1985-to-2016
 
 ## Results
