@@ -19,9 +19,9 @@ This project was done for completion of the "Statistical Learning" class at New 
 
 The motivation of this project was to learn more about the trends of suicides around the world and to understand several economic variables that could indicate suicide rates. I looked at region, year, GDP per capita, HDI, and population. At the time, I had not been introduced to time series analysis, so I did not treat year as well as I should have. I was interested in finding any significant interaction between a country's region and GDP per capita having an effect on the suicide rate. By understanding these effects, we can get an overview of what economic variables may indicate a country's suicide rates and can help in spreading awareness of mental health and suicides around the world.
 
-![Trends by year](https://github.com/Joshuaingram/Economic-Indicators-of-World-Suicides/tree/master/images/suicides_by_year.PNG)
+![Trends by year](https://github.com/Joshuaingram/Economic-Indicators-of-World-Suicides/tree/master/images/suicides_by_year.png)
 
-![Average suicide rates by region](https://github.com/Joshuaingram/Economic-Indicators-of-World-Suicides/tree/master/images/average_by_region.PNG)
+![Average suicide rates by region](https://github.com/Joshuaingram/Economic-Indicators-of-World-Suicides/tree/master/images/average_by_region.png)
 
 ### The Data
 
@@ -35,8 +35,8 @@ Additionally, due to the scope of the class, I removed any rows where the observ
 
 After going through residual diagnostics and mode selection, I found that region, GDP per capita, year, and an intereaction between region and GDP per capita were signficant in predicting a country's suicide rate per 100k population. There was a log transformation on the response and we received an extremely small p-value from our overall F-test. Additionally, the model had an $R^2$ of 0.2789. See below for the estimates, t-statistics, and p-values for the individual variables:
 
-![Model output](https://github.com/Joshuaingram/Economic-Indicators-of-World-Suicides/tree/master/images/mlr_output.PNG)
+![Model output](https://github.com/Joshuaingram/Economic-Indicators-of-World-Suicides/tree/master/images/mlr_output.png)
 
 By holding year constant at 2015, we can visualize the predicted values of our model below:
 
-![Predicted suicides rates](https://github.com/Joshuaingram/Economic-Indicators-of-World-Suicides/tree/master/images/suicides_by_region.PNG)
+![Predicted suicides rates](https://github.com/Joshuaingram/Economic-Indicators-of-World-Suicides/tree/master/images/suicides_by_region.png)
