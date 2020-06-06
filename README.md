@@ -3,7 +3,7 @@
 **-- Project Status: Completed**
 
 ## Project Introduction
-This project was done for completion of the "Statistical Learning" class at New College of Florida in Fall 2019 (sophomore year). The motivation of this project is to observe and interpret any differences in suicides per 100k by region and several economic indicators. Observing and understanding the effects of the economic status of a country enables us to get a "big picture" view of the mental health around the world and can assist in spreading awareness of mental health and suicides. 
+This project was done for completion of the "Statistical Learning" class at New College of Florida in Fall 2019 (sophomore year). The motivation of this project is to observe and interpret any differences in suicides per 100k by region and several economic indicators. Observing and understanding the effects of the economic status of a country enables us to get a "big picture" view of the suicide rates around the world and can assist in spreading awareness of mental health and suicides. 
 
 ### Methods Used
 
@@ -17,12 +17,16 @@ This project was done for completion of the "Statistical Learning" class at New 
 
 ## Project Description
 
+<<<<<<< HEAD
 The motivation of this project was to learn more about the trends of suicides around the world and to understand several economic variables that could indicate suicide rates. I looked at region, year, GDP per capita, HDI, and population. At the time, I had not been introduced to time series analysis, so I did not treat year as well as I should have. I was interested in finding any significant interaction between a country's region and GDP per capita having an effect on the suicide rate. By understanding these effects, we can get an overview of what economic variables may indicate a country's suicide rates and can help in spreading awareness of mental health and suicides around the world.
 
 ### The Data
 
 A link to the original data can be found here:
 
+=======
+### Original Dataset Link
+>>>>>>> d5e5770ea5fcbed744063682b957c660c74d27ad
 https://www.kaggle.com/russellyates88/suicide-rates-overview-1985-to-2016
 
 The original dataset contains several demographic variables like age, sex, and generation. Due to the focus of my project, I entirely removed the demographic information and the only seperation of our observations were by country and year. Once the the rows were properly combined, 5.81% of the cells contained missing values. HDI had 69.93% missing values. For this reason, I created a new categorical variable: Development. This places the HDI scale into several levels (low or very low, medium, high, and unknown). I also created a new variable: Region. This just placed each country into one of eight regions of the world.
