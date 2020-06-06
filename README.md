@@ -17,7 +17,16 @@ This project was done for completion of the "Statistical Learning" class at New 
 
 ## Project Description
 
-### Dataset Link
+The motivation of this project was to learn more about the trends of suicides around the world and to understand several economic variables that could indicate suicide rates. I looked at region, year, GDP per capita, HDI, and population. At the time, I had not been introduced to time series analysis, so I did not treat year as well as I should have. I was interested in finding any significant interaction between a country's region and GDP per capita having an effect on the suicide rate. By understanding these effects, we can get an overview of what economic variables may indicate a country's suicide rates and can help in spreading awareness of mental health and suicides around the world.
+
+### The Data
+
+A link to the original data can be found here:
+
 https://www.kaggle.com/russellyates88/suicide-rates-overview-1985-to-2016
+
+The original dataset contains several demographic variables like age, sex, and generation. Due to the focus of my project, I entirely removed the demographic information and the only seperation of our observations were by country and year. Once the the rows were properly combined, 5.81% of the cells contained missing values. HDI had 69.93% missing values. For this reason, I created a new categorical variable: Development. This places the HDI scale into several levels (low or very low, medium, high, and unknown). I also created a new variable: Region. This just placed each country into one of eight regions of the world.
+
+Additionally, due to the scope of the class, I removed any rows where the observation had 0 suicides. This is because it was negatively affecting my model (and I did not know how to work with what I saw at the time) and no transformations helped. This resulted in 15% of the rows being removed. A zero-inflated Poisson regression model would have been a much more appropriate approach in this case.
 
 ## Results
