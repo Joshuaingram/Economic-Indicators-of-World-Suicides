@@ -33,7 +33,7 @@ Additionally, due to the scope of the class, I removed any rows where the observ
 
 ## Results
 
-After going through residual diagnostics and mode selection, I found that region, GDP per capita, year, and an intereaction between region and GDP per capita were signficant in predicting a country's suicide rate per 100k population. There was a log transformation on the response and we received an extremely small p-value from our overall F-test. Additionally, the model had an $R^2$ of 0.2789. See below for the estimates, t-statistics, and p-values for the individual variables:
+After going through residual diagnostics and mode selection, I found that region, GDP per capita, year, and an intereaction between region and GDP per capita were signficant in predicting a country's suicide rate per 100k population. There was a log transformation on the response and we received an extremely small p-value from our overall F-test. Additionally, the model had an R^2 of 0.2789. See below for the estimates, t-statistics, and p-values for the individual variables:
 
 ![Model output](https://github.com/Joshuaingram/Economic-Indicators-of-World-Suicides/tree/master/images/mlr_output.PNG)
 
